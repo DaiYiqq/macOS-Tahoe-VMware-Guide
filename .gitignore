@@ -1,0 +1,44 @@
+# ===== 虚拟磁盘与内存镜像（体积巨大，禁止提交）=====
+*.vmdk
+*.vmem
+*.vmsn
+*.vswp
+*.vdi
+*.dmg
+*.iso
+*.img
+
+# ===== 锁文件 =====
+*.lck/
+*.lck
+*.lock
+
+# ===== 日志与转储 =====
+*.log
+*.dmp
+mksSandbox*.log
+
+# ===== NVRAM / 运行时状态 =====
+nvram
+*.nvram
+*.vmsd
+*.vmxf
+*.scoreboard
+*.redo
+
+# ===== 第三方工具与下载（README 中提供官方链接，不打包）=====
+downloads/
+tools/qemu/
+tools/unlocker/
+tools/recoveryOS/
+
+# ===== 临时截图 =====
+screen-*.png
+post-reboot-screen.png
+
+# ===== 系统/编辑器杂项 =====
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.idea/
